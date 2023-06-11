@@ -133,7 +133,7 @@ function ViewProduct(){
   const {user}=useContext(AuthContext);
 
   useEffect(()=>{
-    axios.get(`https://bishellapi.herokuapp.com/${id}`)
+    axios.get(`http://127.0.0.1:8000/${id}`)
     .then((res)=>{
         setProduct(res.data);
         console.log(res.data);

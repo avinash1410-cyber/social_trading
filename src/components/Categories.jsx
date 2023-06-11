@@ -31,7 +31,7 @@ const Categories = () => {
   
   return (
     <div>
-        <h1>Available categories</h1>
+        <h1>Status for Today</h1>
     <Container>      
       {categories.map((item) => (
         <CategoryItem item={item} key={item.id} />

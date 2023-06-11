@@ -1,5 +1,5 @@
 import { Badge, Button } from "@material-ui/core";
-import { Search, ShoppingCartOutlined,AccountCircleOutlined } from "@material-ui/icons";
+import { Search, ShoppingCartOutlined,AccountCircleOutlined, Dashboard } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 import {
@@ -119,13 +119,12 @@ const Navbar = () => {
         <button onClick={logoutUser}>LOGOUT</button>
        
           <SearchContainer>
-              <Input type="text" onChange={e => setSearch(e.target.value)} placeholder="search"/>
+              <Input type="text" onChange={e => setSearch(e.target.value)} placeholder="search for the stock"/>
               <Button onClick={handleSubmit}>Search</Button>
           </SearchContainer>
         </Left>
-        <Image src="logo.png" alt="LOGO"/>
         <Center>
-          <Link to="/"><Logo>Clocean</Logo></Link>
+          <Link to="/"><Logo>Social-trading</Logo></Link>
         </Center>
         <Right>
           <MenuItem><Link to="/register">REGISTER</Link></MenuItem>
@@ -133,18 +132,13 @@ const Navbar = () => {
           
           <MenuItem>
           <Link to="/cart"><Badge color="primary">
-              <ShoppingCartOutlined />
+              <Dashboard />
             </Badge>
           </Link>
           </MenuItem>
+
           <MenuItem>
-          <Link to="/order"><Badge badgeContent={'Orders'} color="primary">
-              <AccountCircleOutlined />
-            </Badge>
-          </Link> 
-          </MenuItem>
-          <MenuItem>
-          <Link to="/artist"><Badge badgeContent={'Earn Money'} color="primary">
+          <Link to="/artist"><Badge badgeContent={'traders'} color="primary">
               <AccountCircleOutlined />
             </Badge>
           </Link> 

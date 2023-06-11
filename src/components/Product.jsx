@@ -75,8 +75,7 @@ const Product = ({item}) => {
       <Container>
       <Circle />
 
-      <Image src={`http://bishellapi.herokuapp.com${item === null ? 'loading' : item.image}`} alt="Product Image"/>
-      
+      <Image src={`http://127.0.0.1:8000${item === null ? 'loading' : item.image}`} alt="Product Image"/>
       
      
       <Info>

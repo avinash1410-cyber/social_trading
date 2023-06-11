@@ -24,7 +24,7 @@ useEffect(() => {
 
 const fetchProducts = () => {
     axios
-      .get('http://bishellapi.herokuapp.com/')
+      .get('http://127.0.0.1:8000/')
       .then((res) => {
         console.log(res);
         setProducts(res.data);
@@ -40,7 +40,7 @@ const fetchProducts = () => {
 
   return (
     <div>
-      <h1>Our Products</h1>
+      <h1>Top Achievers</h1>
     <Container>
       {
       products.map((item) => (

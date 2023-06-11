@@ -18,7 +18,6 @@ const Home = () => {
   console.log(user);
   return (
     <div>
-      <h1>HOME</h1>
       <ProtectedPage/>
       <Announcement />
       <Navbar />

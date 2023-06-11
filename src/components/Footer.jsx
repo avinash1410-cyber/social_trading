@@ -92,11 +92,11 @@ const Footer = () => {
       <Left>
         <Logo>About</Logo>
         <Desc>
-        Ocean Of Cloths. Emerging platform for creative minds and aspiring models.
+        We are on a mission to make trade simple and profitable for you.
         </Desc>
         <SocialContainer>
           
-            <a href="https://www.facebook.com/cloceanindia/">
+            <a href="https://www.facebook.com/">
             <SocialIcon color="3B5999"><Facebook />
             </SocialIcon>
             </a>
@@ -107,12 +107,12 @@ const Footer = () => {
             </SocialIcon></a>
           
 
-          <a href="https://twitter.com/Clocean_in">
+          <a href="https://twitter.com/">
           <SocialIcon color="55ACEE"><Twitter /></SocialIcon>
           </a>
           
           
-            <a href="https://www.linkedin.com/company/clocean-private-limited/">
+            <a href="https://www.linkedin.com/">
             <SocialIcon color="E60023"><LinkedIn />
             </SocialIcon></a>
           
@@ -122,13 +122,13 @@ const Footer = () => {
         <Title>Useful Links</Title>
         <List>
         <ListItem><Link to="/">Home</Link></ListItem>
-        <ListItem><Link to="/cart">Cart</Link></ListItem>
-        <ListItem><Link to="/category/man">Man Fashion</Link></ListItem>
-        <ListItem><Link to="/category/woman">Woman Fashion</Link></ListItem>
-        <ListItem><Link to="/category/acessories">Accessories</Link></ListItem>
-        <ListItem><Link to="/profile">My Account</Link></ListItem>
+        <ListItem><Link to="/cart">Dashboard</Link></ListItem>
+        <ListItem><Link to="/category/man">Report</Link></ListItem>
+        <ListItem><Link to="/category/woman">Traders</Link></ListItem>
+        <ListItem><Link to="/category/acessories">World Stocks</Link></ListItem>
+        <ListItem><Link to="/profile">History</Link></ListItem>
         <ListItem><Link to="/order">Order Tracking</Link></ListItem>
-        <ListItem><Link to="/wishlist">Wishlist</Link></ListItem>
+        <ListItem><Link to="/wishlist">Watchlist</Link></ListItem>
         <ListItem><Link to="/t&c">Terms</Link></ListItem>
         </List>
       </Center>
